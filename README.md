@@ -74,9 +74,9 @@ The default URL for Zabbix UI when using Apache web server is http://host/zabbix
 
 
 
-![Сервера](img/admin.png)`
-![Данные](img/data.png)`
-![Подключение](img/server_con.png)`
+![Сервера](img/admin.png)
+![Данные](img/data.png)
+![Подключение](img/server_con.png)
 
 ```
 alexander@linux:~$ cd zabbix1
@@ -114,8 +114,30 @@ remote: Resolving deltas: 100% (27/27), done.
 To https://github.com/Alex2nder/zabbix1.git
  * [new branch]      main -> main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
-alexander@linux:~/zabbix1/sys-pattern-homework$ 
-```
+alexander@linux:~/zabbix1/sys-pattern-homework$ git add .
+alexander@linux:~/zabbix1/sys-pattern-homework$ git commit -m "Коммит изменени .md "
+[main a6a30b0] Коммит изменени .md
+ 11 files changed, 78 insertions(+), 72 deletions(-)
+ create mode 100644 img/1.png
+ create mode 100644 img/admin.png
+ create mode 100644 img/data.png
+ delete mode 100644 img/img15.png
+ delete mode 100644 img/img16.png
+ delete mode 100644 img/img17.png
+ delete mode 100644 img/img18.png
+ delete mode 100644 img/img19.png
+ delete mode 100644 img/img20.png
+ create mode 100644 img/server_con.png
+alexander@linux:~/zabbix1/sys-pattern-homework$ git push origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 605.12 KiB | 8.07 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Alex2nder/zabbix1.git
+   7e21e2d..a6a30b0  main -> main
+alexander@linux:~/zabbix1/sys-pattern-homework$ ```
 
 
 ---
